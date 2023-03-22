@@ -1,7 +1,7 @@
 'use strict';
 
 const sprintf = require('sprintf-js').sprintf;
-const { Broadcast: B, Logger, EventUtil, PlayerRoles } = require('ranvier');
+const { Broadcast: B, Logger, EventUtil, PlayerRoles } = require('whispermud-core');
 
 module.exports = () => {
   return {

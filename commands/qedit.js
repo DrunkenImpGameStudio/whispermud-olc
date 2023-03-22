@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast: B, PlayerRoles } = require('ranvier');
+const { Broadcast: B, PlayerRoles } = require('whispermud-core');
 const SU = require('../lib/StringUtil');
 const DU = require('../lib/DisplayUtil');
 const EU = require('../lib/EntityUtil');

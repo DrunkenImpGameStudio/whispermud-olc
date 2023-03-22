@@ -1,21 +1,14 @@
 {
-  "name": "axon-olc",
+  "name": "whispermud-olc",
   "version": "1.0.0",
-  "description": "Ranvier Bundle OLC (Online Creation) JSON/YAML Definition Editor",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nelsonsbrian/axon-olc.git"
-  },
-  "author": "Brian Nelson <nelsonsbrian@gmail.com>",
+  "description": "Bundle OLC (Online Creation) JSON/YAML Definition Editor",
+  "author": "Naughty Mole Games",
   "license": "MIT",
   "dependencies": {
     "@hapi/joi": "^17.1.0",
     "indefinite-article": "0.0.2",
     "pluralize": "^8.0.0",
-    "rando-js": "github:seanohue/rando#master",
+    "rando-js": "^0.2.0",
     "sprintf-js": "^1.1.2"
-  },
-  "bugs": {
-    "url": "https://github.com/nelsonsbrian/axon-olc/issues"
   }
 }

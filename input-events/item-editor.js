@@ -3,7 +3,7 @@
 const sprintf = require('sprintf-js').sprintf;
 const path = require('path');
 const Joi = require('@hapi/joi');
-const { Broadcast: B, EventUtil, ItemType } = require('ranvier');
+const { Broadcast: B, EventUtil, ItemType } = require('whispermud-core');
 const DU = require('../lib/DisplayUtil');
 const { capitalize: cap } = require('../lib/StringUtil');
 const { itemSlots, itemQuality } = require('../lib/Constants');
